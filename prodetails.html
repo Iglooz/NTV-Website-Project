@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+
+</head>
+<body>
+    <body class="programming-details">
+        <div class="header">
+            <img src="img/logo.png" alt="logo">
+            <input type="text" class="searchbar">
+        </div>
+        <div class="content">
+            <div class="container">
+              <!--Tabs-->
+                <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-details-tab" data-bs-toggle="tab" data-bs-target="#nav-details" type="button" role="tab" aria-controls="nav-details" aria-selected="true">Almennt</button>
+                    <button class="nav-link" id="nav-schedule-tab" data-bs-toggle="tab" data-bs-target="#nav-schedule" type="button" role="tab" aria-controls="nav-schedule" aria-selected="true">Næstu námskeið</button>
+                    <button class="nav-link" id="nav-registration-tab" data-bs-toggle="tab" data-bs-target="#nav-registration" type="button" role="tab" aria-controls="nav-registration" aria-selected="true">Skráning</button>
+                  </div>
+                </nav>
+                <!--Controls the content within each tab-->
+                <div class="tab-content" id="nav-tabContent">
+                  <!--First tab with details about the course-->
+                  <div class="tab-pane fade show active p-3" id="nav-details" role="tabpanel" aria-labelledby="nav-details-tab">
+                    <p style="font-weight: bold;">Lengd námskeiðs</p>
+                    <p>194 kennslustundir </p>
+                    <p style="font-weight: bold;">Verð</p>
+                    <p>435.750 kr.</p>
+                    <h3>Fjarnám í boði</h3>
+                    <p>Vandað sérhannað fjarnám er í boði í þessu námi - sjá neðar á síðunni.</p>
+                    <h2>Forritun 2. önn</h2>
+                    <p>Á annarri önn læra nemendur að hanna skýjalausnir og bæta við þekkingu fyrri annar. Nemendur læra að forrita kerfi sem eru með viðmót í vafra og eru þ.a.l. ekki bundin við ákveðin stýrikerfi og henta m.a. fyrir snjalltæki. Þetta er vinsælasta leiðin fyrir nýjar hugbúnaðarlausnir.  Önninni lýkur svo með lokaverkefni þar sem nemendur hnýta saman þekkingu sína af fyrstu tveimur önnunum.  Eftir aðra önn eiga nemendur að vera hæfir til að smíða sinn eigin hugbúnaði í AZURE skýjaumhverfinu.
+
+                      Fyrir nemendur er lykilatriði að nám í forritun sé í takt við nýjustu þróun á hverjum tíma og að námið sé metið að verðleikum úti á markaðinum. Forritunarnámið hjá NTV er þróað í samstarfi við stór íslensk hugbúnaðarhús. Það er gert til að tryggja að námið taki mið af þörfum markaðarins hverju sinni og að það taki mið af nýjustu straumum á hverjum tíma. Námið er stöðugt í þróun og mun taka töluverðum breytingum frá og með hausti 2016. Til að gera námið enn betra og mæta óskum og kröfum hugbúnaðarhúsa er námið nú 3 annir. 
+                      
+                      Námið samanstendur af fyrirlestrum og verklegum æfingum í skólanum ásamt verkefnavinnu utan kennslutíma.</p>
+                    <p style="font-weight: bold;">Fjarnám</p>
+                    <p>NTV skólinn býður upp á vandað fjarnám með góðum stuðningi. Nemendur fá allt ítarlegt námsefni, fyrirlestra, verkefni og úrlausnir í gegnum nemendaumhverfi skólans sem er aðgengilegt hvar og hvenær sem er á netinu. 
+                      Jafnframt fá nemendur aðgengi að upptökum úr kennslutímum sem aukaefni, þegar það á við, og gefst nemendum kostur á að horfa á það hvar og hvenær sem er. Fjarnemendur hafa aðgengi að leiðbeinanda í gegnum nemendasvæðið með allar fyrirspurnir.  
+                      Skipulögð samskipti kennara/umsjónarmanns við fjarnemendur fara fram rafrænt og í síma óski nemendur þess.  Í upphafi fá fjarnemendur námsdagskrá sem tilgreinir og tímasetur alla námsyfirferð, verkefnaskil, 
+                      prófadaga og annað sem við á. Öll próf eru framkvæmd í gegnum nemendaumhverfi NTV á netinu. Öllum nemendum í fjarnámi býðst að koma í valda tíma í staðnáminu ef þeir óska eftir því svo fremi sem það eru laus sæti.</p>
+                    <p style="font-weight: bold;">Markmið með náminu</p>
+                    <p>Nemandi sem leggur sig fram í náminu á að geta staðið sig vel í starfi sem forritari hjá hugbúnaðarhúsi. Nemandi má áætla að verja að meðaltali 20 klukkustundum á viku í námið ef hann vill ná árangri.</p>
+                    <p style="font-weight: bold;">Inntökuskilyrði</p>
+                    <p>Nemendur verða að hafa klárað fyrstu önn á Forritunarbraut NTV, eða geta sýnt fram á að kunna vel það námsefni sem þar er kennt.</p>
+                    <p style="font-weight: bold;">Greiðslumöguleikar</p>
+                    <p>Sjá nánari upplýsingar hér: http://www.ntv.is/is/um-ntv/greidsla-namskeidsgjalda</p>
+                  </div>
+                  <!--Second tab which shows the schedule of upcoming courses-->
+                  <div class="tab-pane fade show p-3" id="nav-schedule" role="tabpanel" aria-labelledby="nav-schedule-tab">
+                    <p style="font-weight: bold;">Kvöld- og helgarnámskeið</p>
+                    <p>Námskeið hefst: 31.08 2021</p>
+                    <p>Námskeiði lýkur: 7.12 2021</p>
+                    <p>Dagar: þriðjudagur, fimmtudagur</p>
+                    <p>Tími: 18:00 - 21:00 & 2-4 verkefnadagar á laugardegi</p>
+                    <p style="font-weight: bold;">Kvöld- og helgarnámskeið</p>
+                    <p>Námskeið hefst: 31.08 2021</p>
+                    <p>Námskeiði lýkur: 7.12 2021</p>
+                    <p>Dagar: </p>
+                    <p>Tími: FJARNÁM</p>
+                  </div>
+                  <!--Third tab with registration-->
+                  <div class="tab-pane fade show p-3" id="nav-registration" role="tabpanel" aria-labelledby="nav-registration-tab">
+                    <p>Larem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatibus est nam ea natus a repellat nostrum magni ipsa dignissimos deleniti voluptate corrupti, voluptas amet hic sapiente quam ad velit.</p>
+                  </div>
+                </div>
+
+                
+
+                  
+            </div>
+        </div>
+                    <!--Footer-->
+    <div class="footer">
+      <h2>Hafðu samband</h2>
+      <p></p>
+  </div>
+    </body>
+    <script>
+      $(".nav li").on("click", function(){
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		    crossorigin="anonymous"></script>
+</body>
+</html>

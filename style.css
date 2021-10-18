@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    background-color: #bdbdbd;
+}
+.searchbar {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.mainpage {
+    background-color: #666666;
+}
+.programming-list {
+    background-color: #666666;
+}
+.programming-details {
+    background-color: #666666;
+}
+.main-banner {
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/background-1.jpg");
+}
+.inspiring {
+    
+}
+.courses {
+    max-height: 200px;
+    min-height: 180px;
+    max-width: 200px;
+    min-width: 150px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    background-color: #bdbdbd;
+    text-align: center;
+}
+.courses h2 {
+    font-size: 150%;
+}
+.course-info {
+
+}
+.upcoming-courses {
+    min-height: 150px;
+    max-width: 200px;
+    min-width: 200px;
+    background-color: #bdbdbd;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
+.news-article {
+    min-height: 100px;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #bdbdbd;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bdbdbd;
+    color: black;
+    text-align: left;
+
+}
+.proinfo {
+    display: inline;
+    min-height: 200px;
+    max-width: 200px;
+    min-width: 100px;
+    
+    background-color: #bdbdbd;
+    text-align: center;
+    background-color: #bdbdbd;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    
+   
+    
+}
+.page-end {
+    margin-bottom: 200px;
+}
+.course-description {
+    
+}
+.info1 {
+    background-image: url(img/t_grunnur-c-.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    
+}
+.info2 {
+    background-image: url(img/t_forritunarbraut-ny-namsleid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.cimg {
+    background-color: #bdbdbd;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    height: 200px;
+   
+    
+
+}
+.tab-pane {
+    background-color: #bdbdbd;
+}
