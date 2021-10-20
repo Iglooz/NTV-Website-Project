@@ -7,12 +7,18 @@
     <title>Main Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="mainpage">
     <div class="content">
         <!--Header and search bar-->
         <div class="header">
-            <img src="img/logo.png" alt="logo" style="background-image: image(logo);">
+            <a href="main.html">
+                <img alt="home" src="img/logo.png" style="background-image: image(logo);">
+             </a>
             <input type="text" class="searchbar">
         </div>
         <!--Banner image-->
@@ -21,14 +27,17 @@
         </div>
         <!--Courses-->
         <div class="container">
-        <h1 style="text-align: center;">Nám í boði</h1>
+        <h1 class="pagetitle">Nám í boði</h1>
         <div class="row">
             
           <div class="col-lg-3 col-sm-6 courses">
               <h2>Bókhalds- og skrifstofunám</h2>
           </div>
           <div class="col-lg-3 col-sm-6 courses">
-              <h2>Forritun</h2>
+              <a href="prolist.html">
+                <h2>Forritun</h2>
+              </a>
+              
           </div>
           <div class="col-lg-3 col-sm-6 courses">
               <h2>Grafík, Adobe & WordPress</h2>
@@ -57,7 +66,7 @@
         <!--Upcoming courses-->
         <div class="container">
          <div class="upcoming">
-            <h1 style="text-align: center;">Næstu námskeið</h1>
+            <h1 class="smallertitles">Næstu námskeið</h1>
              <div class="row">
                  <div class="col-lg-3 col-sm-12 upcoming-courses">
                      <p>18.10 - 06.12 </p>
@@ -81,20 +90,42 @@
         <!--News-->
         <div class="container">
          <div class="news">
-             <h1 style="text-align: center;">Fréttir</h1>
+             <h1 class="smallertitles">Fréttir</h1>
              <div class="row">
-                 <div class="col news-article">
+                 <div class="col-12 news-article">
+                     <p>07.05.2021</p>
+                     <p>Skráningar fyrir haustönnina standa yfir. 
+                         NTV skólinn býður upp á einstaklega hagnýtt og starfsmiðað nám. 
+                         Á mjög skömmum tíma getur duglegur nemandi skapað sér 
+                         starfstækifæri og samkeppnisforskot á atvinnumarkaði. 
+                         Flestar starfmiðaðar námsbrautir eru 12 til 18 mánuðir. Kynntu þér málið.</p>
+                    <p style="float: right;">Smelltu Hér</p>
 
                  </div>
              </div>
          </div>
         </div>        
     </div>
+    
     <!--Footer-->
-    <div class="footer">
+    <footer class="footer">
         <h2>Hafðu samband</h2>
-        <p></p>
-    </div>
+        <div class="row">
+          <div class="col-3">
+            
+            <p><i class="fa fa-home"></i> Hlíðasmára 9 - 201 Kópavogur</p>
+          </div>
+          <div class="col-3">
+            
+            <p><i class="fa fa-phone"></i> Sími 544 4500 / Fax 544 4501</p>
+          </div>
+          <div class="col-3">
+            
+            <p><i class="fa fa-newspaper-o"></i> skoli@ntv.is</p>
+          </div>
+        </div>
+        
+    </footer>
     
  </body>
 </html>

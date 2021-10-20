@@ -16,6 +16,7 @@
     background-color: #666666;
 }
 .programming-list {
+ 
     background-color: #666666;
 }
 .programming-details {
@@ -29,9 +30,12 @@
     background-image: url("img/background-1.jpg");
 }
 .inspiring {
-    
+    color: white;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
 }
 .courses {
+    border-radius: 25px;
     max-height: 200px;
     min-height: 180px;
     max-width: 200px;
@@ -40,12 +44,17 @@
     border: 10px solid transparent;
     background-color: #bdbdbd;
     text-align: center;
+    display:table-cell;
+    font-family: 'Poppins', sans-serif;
 }
 .courses h2 {
+    vertical-align: middle;
     font-size: 150%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 .course-info {
-
+    font-family: 'Poppins', sans-serif;
 }
 .upcoming-courses {
     min-height: 150px;
@@ -54,25 +63,34 @@
     background-color: #bdbdbd;
     background-clip: padding-box;
     border: 10px solid transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.courses:hover {
+    color: rgb(255, 255, 255);
 }
 .news-article {
     min-height: 100px;
-    max-width: 300px;
+    font-family: 'Poppins', sans-serif;
     min-width: 300px;
     padding: 20px;
     background-color: #bdbdbd;
     margin-bottom: 100px;
-    margin-left: 30px;
+    
+    
     
 }
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #bdbdbd;
+    background-color: #9c9999;
     color: black;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border-style: solid;
+    border: 10px black;
 
 }
 .proinfo {
@@ -80,20 +98,25 @@
     min-height: 200px;
     max-width: 200px;
     min-width: 100px;
-    
     background-color: #bdbdbd;
     text-align: center;
     background-color: #bdbdbd;
     background-clip: padding-box;
     border: 10px solid transparent;
-    
+    font-family: 'Poppins', sans-serif;
+        border-radius: 25px;
    
     
+}
+.proinfo img {
+    float: left;
 }
 .page-end {
     margin-bottom: 200px;
 }
 .course-description {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .info1 {
@@ -120,4 +143,38 @@
 }
 .tab-pane {
     background-color: #bdbdbd;
+}
+.searchbar {
+    right: 0;
+    position: absolute;
+ 
+}
+.pagetitle {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 500%;
+}
+.smallertitles {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.course-tabs p {
+    font-family: 'Poppins', sans-serif;
+}
+.course-tabs h2 {
+    font-family: 'Poppins', sans-serif;
+}
+.course-tabs h3 {
+    font-family: 'Poppins', sans-serif;
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.empty-space {
+    height: 530px;
+    color: transparent;
 }

@@ -7,24 +7,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <body class="programming-list">
         <div class="content">
             <!--Header and search bar-->
             <div class="header">
-                <img src="img/logo.png" alt="logo">
+                <a href="main.html">
+                    <img alt="home" src="img/logo.png" style="background-image: image(logo);">
+                 </a>
                 <input type="text" class="searchbar">
             </div>
             <!--Programming course information-->
             <div class="container">
-                <h1 style="text-align: center;">Forritun</h1>
+                <h1 class="pagetitle">Forritun</h1>
                 <div class="row">
                     
-                    <img src="img/t_grunnur-c-.png" alt="grunnur" class="cimg">
-                    <div class="col-sm proinfo col-lg-8 col-sm-12">
-                        <p class="course-description">Í dag er mikill skortur á forriturum enda mikil gróska í faginu. Margir sýna því áhuga að læra forritun en sumir vita ekki hvað starfið felur í sér. 
+                    
+                    <div class="col proinfo ">
+                        <img src="img/t_grunnur-c-.png" alt="grunnur" class="cimg">
+                        <p class="course-description ">Í dag er mikill skortur á forriturum enda mikil gróska í faginu. Margir sýna því áhuga að læra forritun en sumir vita ekki hvað starfið felur í sér. 
                             Tilgangur þessa námskeiðs er að bjóða nemendum upp á að kynnast grunnatriðum forritunar með möguleika á því að halda áfram námi. Næsta námskeið hefst 15. september 2021 - skráning hafin. </p>
                     </div>
                    
@@ -32,8 +38,9 @@
                 </div>
                 <div class="row">
                     
-                    <img src="img/t_forritunarbraut-ny-namsleid.png" alt="grunnur" class="cimg">
-                    <div class="col-sm proinfo"> 
+                    
+                    <div class="col proinfo "> 
+                        <img src="img/t_forritunarbraut-ny-namsleid.png" alt="grunnur" class="cimg">
                         <p class="course-description">Þetta er yfirgripsmikið Diplómanám í forritun sem spannar þrjár heilar annir þar sem kenndir eru allir helstu færniþætti sem forritarar þurfa kunna til að starfa við hugbúnaðarsmíði. 
                         Námið hefst 15. september 2021 - skráning stendur yfir. </p>
                    </div>
@@ -41,8 +48,9 @@
                 </div>
                 <div class="row">
                     
-                    <img src="img/t_forritun-1.-onn.jpg" alt="grunnur" class="cimg">
-                    <div class="col-sm proinfo"> 
+                    
+                    <div class="col proinfo"> 
+                        <img src="img/t_forritun-1.-onn.jpg" alt="grunnur" class="cimg">
                         <p class="course-description">Á fyrstu önn í forritun læra nemendur grundvallaratriði í forritun og fræðast um smíði snjallsímaforrita með Flutter sem er nýtt forritunarumhverfi frá Google. 
                             Auk þess fá nemendur þjálfun í viðmótshönnun og notendaupplifun. Önninni lýkur með lokaverkefni. Næsta námskeið hefst 15. september 2021 - skráning stendur yfir.  </p>
                    </div>
@@ -50,8 +58,11 @@
                 </div>
                 <div class="row">
                     
-                    <img src="img/t_forritun-2.onn.jpg" alt="grunnur" class="cimg">
-                    <div class="col-sm proinfo"> 
+                    
+                    <div class="col proinfo"> 
+                        <a href="prodetails.html">
+                            <img src="img/t_forritun-2.onn.jpg" alt="grunnur" class="cimg">
+                        </a>
                         <p class="course-description">Á annarri önn læra nemendur að hanna skýjalausnir. Nemendur læra að forrita kerfi sem eru með viðmót í vafra og eru þ.a.l. 
                             ekki bundin við ákveðin stýrikerfi og henta m.a. fyrir snjalltæki. Kennsla á 2. önn hefst 31. ágúst 2021 - skráning er hafin.  </p>
                    </div>
@@ -59,8 +70,9 @@
                 </div>
                 <div class="row ">
                     
-                    <img src="img/t_forritun-3.onn.jpg" alt="grunnur" class="cimg">
-                    <div class="col-sm proinfo"> 
+                   
+                    <div class="col proinfo page-end"> 
+                        <img src="img/t_forritun-3.onn.jpg" alt="grunnur" class="cimg">
                         <p class="course-description">Þriðja önn í forritun er framhald af annarri önn þar sem meiri áhersla er lögð á bakendaforritun, gagnvirk samskipti við vefþjónustu ásamt tengingu og skipulag í gagnaumhverfinu. 
                             Þar vinna nemendur að gerð vefja og/eða snjallsímaforrita með gagnagrunni í skýjaumverfi. Þriðja önnin í forritun er alltaf kennd á haustönn, en að auki á vorönn ef næg þátttaka er.  </p>
                    </div>
@@ -71,10 +83,24 @@
 
         </div>
             <!--Footer-->
-    <div class="footer">
-        <h2>Hafðu samband</h2>
-        <p></p>
-    </div>
+            <footer class="footer">
+                <h2>Hafðu samband</h2>
+                <div class="row">
+                  <div class="col-3">
+                    
+                    <p><i class="fa fa-home"></i> Hlíðasmára 9 - 201 Kópavogur</p>
+                  </div>
+                  <div class="col-3">
+                    
+                    <p><i class="fa fa-phone"></i> Sími 544 4500 / Fax 544 4501</p>
+                  </div>
+                  <div class="col-3">
+                    
+                    <p><i class="fa fa-newspaper-o"></i> skoli@ntv.is</p>
+                  </div>
+                </div>
+                
+            </footer>
     </body>
 </body>
 </html>

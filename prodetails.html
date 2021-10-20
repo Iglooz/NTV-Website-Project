@@ -7,13 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     <body class="programming-details">
         <div class="header">
-            <img src="img/logo.png" alt="logo">
+          <a href="main.html">
+            <img alt="home" src="img/logo.png" style="background-image: image(logo);">
+          </a>
             <input type="text" class="searchbar">
         </div>
         <div class="content">
@@ -29,7 +34,7 @@
                 <!--Controls the content within each tab-->
                 <div class="tab-content" id="nav-tabContent">
                   <!--First tab with details about the course-->
-                  <div class="tab-pane fade show active p-3" id="nav-details" role="tabpanel" aria-labelledby="nav-details-tab">
+                  <div class="tab-pane fade show active p-3 course-tabs" id="nav-details" role="tabpanel" aria-labelledby="nav-details-tab">
                     <p style="font-weight: bold;">Lengd námskeiðs</p>
                     <p>194 kennslustundir </p>
                     <p style="font-weight: bold;">Verð</p>
@@ -55,22 +60,119 @@
                     <p>Sjá nánari upplýsingar hér: http://www.ntv.is/is/um-ntv/greidsla-namskeidsgjalda</p>
                   </div>
                   <!--Second tab which shows the schedule of upcoming courses-->
-                  <div class="tab-pane fade show p-3" id="nav-schedule" role="tabpanel" aria-labelledby="nav-schedule-tab">
+                  <div class="tab-pane fade show p-3 course-tabs" id="nav-schedule" role="tabpanel" aria-labelledby="nav-schedule-tab">
                     <p style="font-weight: bold;">Kvöld- og helgarnámskeið</p>
                     <p>Námskeið hefst: 31.08 2021</p>
                     <p>Námskeiði lýkur: 7.12 2021</p>
                     <p>Dagar: þriðjudagur, fimmtudagur</p>
                     <p>Tími: 18:00 - 21:00 & 2-4 verkefnadagar á laugardegi</p>
+                    <br><br><br>
                     <p style="font-weight: bold;">Kvöld- og helgarnámskeið</p>
                     <p>Námskeið hefst: 31.08 2021</p>
                     <p>Námskeiði lýkur: 7.12 2021</p>
                     <p>Dagar: </p>
                     <p>Tími: FJARNÁM</p>
+                    <div class="empty-space"></div>
                   </div>
+                  
+                  
+                  
                   <!--Third tab with registration-->
-                  <div class="tab-pane fade show p-3" id="nav-registration" role="tabpanel" aria-labelledby="nav-registration-tab">
-                    <p>Larem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatibus est nam ea natus a repellat nostrum magni ipsa dignissimos deleniti voluptate corrupti, voluptas amet hic sapiente quam ad velit.</p>
+                  <div class="tab-pane fade show p-3 course-tabs" id="nav-registration" role="tabpanel" aria-labelledby="nav-registration-tab">
+                    <form action="">
+                      <p>Skráning í nám/námskeið *</p>
+                      <select name="course" id="course">
+                        <option value="Forritun2">Forritun 2. önn</option>
+                      </select>
+                    </form>
+                    <p>Nafn *</p>
+                    <input type="text" class="reg">
+                    <p>Kennitala *</p>
+                    <input type="text" class="reg">
+                    <p>Netfang *</p>
+                    <input type="text" class="reg">
+                    <p>Heimilisfang *</p>
+                    <input type="text" class="reg">
+                   
+                    <p>Sími</p>
+                    <input type="text" class="reg">
+                    <p>GSM</p>
+                    <input type="text" class="reg">
+                    <p>Vinnusími</p>
+                    <input type="text" class="reg">
+                    <form action="">
+                      <p>Póstnúmer og staður *</p>
+                      <select name="course" id="course">
+                        <option value="Forritun2">101 Reykjavík</option>
+                        <option value="Forritun2">102 Reykjavík</option>
+                        <option value="Forritun2">103 Reykjavík</option>
+                        <option value="Forritun2">104 Reykjavík</option>
+                        <option value="Forritun2">105 Reykjavík</option>
+                        <option value="Forritun2">106 Reykjavík</option>
+                      </select>
+                    </form><br>
+                    <form action="">
+                      <p>Menntunarstig</p>
+                      <input type="checkbox" id="education1" name="education1" value="grunnskoli">
+                      <label for="education1"> Ég hef lokið grunnskólaprófi</label><br>
+                      <input type="checkbox" id="education2" name="education2" value="student">
+                      <label for="education2"> Ég hef lokið stúdentsprófi</label><br>
+                      <input type="checkbox" id="education3" name="education3" value="iðmenntun">
+                      <label for="education3"> Ég hef lokið iðnmenntun</label><br>
+                      <input type="checkbox" id="education4" name="education4" value="haskoli">
+                      <label for="education4"> Ég er með háskólapróf</label><br><br>
+          
+                    </form>
+
+                    <p>Byrjunardags. námskeiðs</p>
+                    <input type="text" class="reg">
+                    <p>Tími dags.</p>
+                    <form action="">
+                      
+                      <input type="radio" id="Morgunn" name="time" value="Morgunn">
+                      <label for="Morgunn">Morgunn</label><br>
+                      <input type="radio" id="Síðdegi" name="time" value="Síðdegi">
+                      <label for="Síðdegi">Síðdegi</label><br>
+                      <input type="radio" id="Kvöld" name="time" value="Kvöld">
+                      <label for="Kvöld">Kvöld</label> 
+                  </form>
+                  <p>Hver er greiðandi?</p>
+                  <input type="radio" id="self" name="payer" value="self">
+                  <label for="self">Ég greiði námið sjálf/ur</label><br>
+                  <input type="radio" id="other" name="payer" value="other">
+                  <label for="other">Þriðji aðili greiðir námið</label>
+                  <p>Ef þriðji aðili greiðir fyrir námið þarf að fylla út reitina hér að neðan.</p>
+                  <p>Nafn greiðanda</p>
+                  <input type="text" class="reg">
+                  <p>Kennitala</p>
+                  <input type="text" class="reg">
+                  <p>Nafn tengiliðs</p>
+                  <input type="text" class="reg">
+                  <p>Heimilisfang</p>
+                  <input type="text" class="reg">
+                  <form action="">
+                    <p>Póstnúmer og staður *</p>
+                    <select name="course" id="course">
+                      <option value="Forritun2">101 Reykjavík</option>
+                      <option value="Forritun2">102 Reykjavík</option>
+                      <option value="Forritun2">103 Reykjavík</option>
+                      <option value="Forritun2">104 Reykjavík</option>
+                      <option value="Forritun2">105 Reykjavík</option>
+                      <option value="Forritun2">106 Reykjavík</option>
+                    </select>
+                  </form><br>
+                  <p>Athugasemdir:</p>
+                  <input type="text" class="reg">
+                  <br>
+                  <input type="submit">
+                  <br>
+
+
+
+
+
                   </div>
+                  <br> <br>
                 </div>
 
                 
@@ -78,10 +180,24 @@
                   
             </div>
         </div>
+
                     <!--Footer-->
-    <div class="footer">
-      <h2>Hafðu samband</h2>
-      <p></p>
+                    <footer class="footer">
+                      <h2>Hafðu samband</h2>
+                      <div class="row">
+                        <div class="col-3">
+                          <p><i class="fa fa-home"></i> Hlíðasmára 9 - 201 Kópavogur</p>
+                        </div>
+                        <div class="col-3">
+                          <p><i class="fa fa-phone"></i> Sími 544 4500 / Fax 544 4501</p>
+                        </div>
+                        <div class="col-3">
+                         <p><i class="fa fa-newspaper-o"></i> skoli@ntv.is</p>
+                        </div>
+                      </div>
+                      
+                  </footer>
+      
   </div>
     </body>
     <script>
