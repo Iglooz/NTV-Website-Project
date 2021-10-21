@@ -46,12 +46,16 @@
     text-align: center;
     display:table-cell;
     font-family: 'Poppins', sans-serif;
+    display: block;
 }
 .courses h2 {
     vertical-align: middle;
     font-size: 150%;
     color: black;
     font-family: 'Poppins', sans-serif;
+}
+.courses:hover {
+    background-color: #eeeeee;
 }
 .course-info {
     font-family: 'Poppins', sans-serif;
